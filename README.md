@@ -11,10 +11,10 @@ outside of your current scope and now you're stuck wondering about your data.
 
 To use, include it in your client-side code somehow after jQuery.
 
-'''HTML
+```HTML
 <script src="/js/jquery.js"></script>
 <script src="/js/console.snapshot.js"></script>
-'''
+```
 
 Then keep using `console.log()` as usual. The original functionality
 (displaying object reference) is kept in `console.old()` in case you need it.
